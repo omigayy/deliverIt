@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/level_select_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.omigayy.comp590final.LevelSelect">
+
+    <ImageButton
+        android:id="@+id/global"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="55dp"
+        android:background="@null"
+        android:onClick="selectLevel"
+        android:src="@drawable/global" />
+
+    <ImageButton
+        android:id="@+id/science0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/global"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/global"
+        android:background="@null"
+        android:onClick="selectLevel"
+        android:src="@drawable/science" />
+
+    <ImageButton
+        android:id="@+id/science1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/science0"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/science0"
+        android:background="@null"
+        android:onClick="selectLevel"
+        android:src="@drawable/science1" />
+
+    <ImageButton
+        android:id="@+id/science2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/science1"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/science1"
+        android:background="@null"
+        android:onClick="selectLevel"
+        android:src="@drawable/science2" />
+
+    <ImageButton
+        android:id="@+id/science3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/science2"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/science2"
+        android:background="@null"
+        android:onClick="selectLevel"
+        android:src="@drawable/science3" />
+
+</RelativeLayout>
